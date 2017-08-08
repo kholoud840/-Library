@@ -35,3 +35,19 @@ p {
     padding: 0;
     margin: 0;
 }
+
+input:focus {
+    outline: none;
+}
+
+form label{
+    display: none;
+}
+
+svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    fill: #82719D;
+}

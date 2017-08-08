@@ -1,0 +1,31 @@
+footer {
+    background: #82719D;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+footer .footer-title {
+    font-size: 1.1em;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.footer-links {
+    margin-bottom: 30px;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+}
+
+.copyright {
+    background: #69538e;
+    padding: 10px 0;
+    font-size: 0.8em;
+}

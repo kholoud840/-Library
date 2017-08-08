@@ -1,0 +1,47 @@
+.subscription-section {
+    background-color: #eee;
+    padding: 30px 0;
+}
+
+.subscription-section .content {
+    width: 700px;
+}
+
+.subscription-section .form-title {
+    text-align: center;
+    color: #999;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.subscription-section form {
+    display: flex;
+}
+
+.subscription-section form input {
+/ / width: 90 %;
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    padding-left: 30px;
+    border: none;
+    caret-color: #82719D;
+/ / position: relative;
+
+}
+
+.subscription-section form p {
+    flex: 1;
+}
+
+.subscription-section button {
+    border: none;
+    background: #82719D;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+/ / position: absolute;
+/ / top: 0;
+/ / right: 0;
+}

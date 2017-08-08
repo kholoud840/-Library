@@ -1,6 +1,7 @@
 
 header {
     text-align: center;
+    background: linear-gradient(to right ,#82719D,#82719D 30%,#fff 30%,#fff 100%);
 }
 
 .page-title {
@@ -27,11 +28,6 @@ header {
 
 }
 
-.header-links .home::before{
-    //content: "";
-    //background: url("../images/003-home.png");
-
-}
 .header-links ul li a {
     color: #999;
     display: inline-block;
@@ -40,7 +36,7 @@ header {
 }
 
 @media (min-width: 600px) {
-    header {
+    header .content{
         display: flex;
     }
 

@@ -15,20 +15,15 @@
     text-transform: capitalize;
     font-weight: 300;
     margin-bottom: 10px;
-
 }
 
 .labels {
     margin-bottom: 10px;
 }
 
-.search-section .labels-list {
-    margin-left: -20px;
-}
-
 .search-section .label {
     display: inline-block;
-    padding-left: 6px;
+    margin-left: 6px;
     margin-bottom: 10px;
 }
 
@@ -38,7 +33,7 @@
     color: #fff;
     border: 1px solid #fff;
     border-radius: 4px;
-    font-size: 0.6em;
+    font-size: 0.875em;
     text-transform: capitalize;
     transition: all .3s ease;
 }
@@ -52,12 +47,12 @@ form {
     padding: 20px 0;
 }
 
-form h2 {
+h2.form-title {
     color: #fff;
     margin-bottom: 16px;
 }
 
-form input {
+.search-section form input {
     width: 90%;
     padding: 12px;
     background: #fff url(../images/search.png) no-repeat 6px 10px;
@@ -67,11 +62,13 @@ form input {
     caret-color: #82719D;
 }
 
-input:focus {
-    outline: none;
+form input::placeholder {
+    color: #a2a2a2;
+    text-transform: capitalize;
 }
 
-form input::placeholder {
-    color: #ccc;
-    text-transform: capitalize;
+@media (min-width: 600px) {
+    .search-section .labels-list {
+        margin-left: -20px;
+    }
 }
